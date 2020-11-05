@@ -9,7 +9,7 @@
                  ]
   :plugins  [[lein-ring "0.12.5"]]
 
-  :ring {:handler project-uno.core/routing-handler
+  :ring {:handler project-uno.core/full-handler
          :init project-uno.core/on-init
          :destroy project-uno.core/on-destroy}
 
